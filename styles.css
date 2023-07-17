@@ -1,3 +1,41 @@
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    width: 800px;
+    font-size: 24px;
+    margin: auto;
+    margin-top: 1.25em;
+    line-height: 1.5em;
+}
 h1 {
-    font-family: "Arial";
+    font-size: 50px;
+}
+h2 {
+    font-size: 39px;
+}
+h3 {
+    font-size: 31px;
+}
+
+#title {
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#studio-info{
+    font-size: 39px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+
+#game-names-title {
+    font-size: 31px;
+    text-decoration: underline;
+}
+
+#game-info {
+    border-bottom: 1px solid black;
+    padding-bottom: 50px;
+    margin-bottom: 150px;
 }
