@@ -3,8 +3,9 @@ body {
     width: 800px;
     font-size: 24px;
     margin: auto;
-    margin-top: 1.25em;
     line-height: 1.5em;
+    background-color: #292831;
+    color: white;
 }
 h1 {
     font-size: 50px;
@@ -16,11 +17,14 @@ h3 {
     font-size: 31px;
 }
 
-#title {
-    font-size: 50px;
-    margin-top: 50px;
-    margin-bottom: 40px;
+.fullscreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
+
 
 #studio-info{
     font-size: 39px;
