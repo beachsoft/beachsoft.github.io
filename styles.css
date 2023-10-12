@@ -2,7 +2,7 @@
 body {
     font-family: 'Barlow Condensed', sans-serif;
     width: 800px;
-    font-size: 24px;
+    font-size: 50px;
     margin: auto;
     line-height: 1.5em;
     background-color: #292831;
@@ -16,19 +16,34 @@ a:visited {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 81px;
+    text-decoration: underline;
 }
 h2 {
-    font-size: 39px;
+    font-size: 64px;
 }
-h3 {
-    font-size: 31px;
+
+hr {
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid white;
+    margin-top: -100px;
 }
 
 .fullscreen {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 100vh;
+}
+
+#gronland-logo {
+    margin-top: 100px;
+}
+
+#steam-logo {
+    margin-top: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
