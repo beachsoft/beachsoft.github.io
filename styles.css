@@ -2,48 +2,62 @@
 body {
     font-family: 'Barlow Condensed', sans-serif;
     width: 800px;
-    font-size: 50px;
+    font-size: 39px;
     margin: auto;
-    line-height: 1.5em;
     background-color: #292831;
     color: white;
 }
 a:link {
-    color: white;
+    color: tan;
 }
 a:visited {
-    color: white;
+    color: tan;
 }
 
 h1 {
-    font-size: 81px;
-    text-decoration: underline;
-}
-h2 {
-    font-size: 64px;
+    font-size: 50px;
+    margin: 0;
 }
 
 hr {
     height: 1px;
     width: 100%;
     border-top: 1px solid white;
-    margin-top: -100px;
 }
 
-.fullscreen {
+.title {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 100vh;
 }
 
-#gronland-logo {
-    margin-top: 100px;
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+#gronland-logo img {
+    width: 650px;
+    margin-top: 93px;
+    margin-bottom: 39px;
 }
 
 #steam-logo {
-    margin-top: 50px;
-    margin-left: 250px;
-    margin-right: 250px;
+    height: 39px;
+}
+
+#mail-icon {
+    text-align: center;
+}
+#mail-icon img {
+    width: 50px;
 }
