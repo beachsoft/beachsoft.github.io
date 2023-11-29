@@ -8,10 +8,10 @@ body {
     color: white;
 }
 a:link {
-    color: tan;
+    color: #4A7A96;
 }
 a:visited {
-    color: tan;
+    color: #4A7A96;
 }
 
 h1 {
@@ -25,6 +25,10 @@ hr {
     border-top: 1px solid white;
 }
 
+.underlined {
+    text-decoration: underline;
+}
+
 .title {
     display: flex;
     flex-direction: column;
@@ -36,19 +40,37 @@ hr {
 .game {
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: center;
     min-height: 100vh;
 }
 
-.underlined {
-    text-decoration: underline;
+.presskit {
+    display: block;
+    font-size: 31px;
+    margin-bottom: 40px;
+}
+
+.presskit .quote {
+    padding-left: 24px;
+    border-left: 1px #4A7A96 dotted;
+    font-size: 24px;
 }
 
 #gronland-logo img {
     width: 650px;
     margin-top: 93px;
     margin-bottom: 39px;
+}
+
+.photobox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.photobox .sixforty {
+    width: 640px;
 }
 
 #steam-logo {
@@ -60,4 +82,15 @@ hr {
 }
 #mail-icon img {
     width: 50px;
+}
+
+table {
+    border-top: 1px #4A7A96 dotted;
+    width: 100%;
+}
+
+td {
+    width: 50%;
+    padding: 12px;
+    border-bottom: 1px #4A7A96 dotted;
 }
